@@ -68,7 +68,8 @@ def order_melons():
         result_text = "You want to buy fewer than 1 melons? Huh?"
 
     return jsonify({'code': result_code, 'msg': result_text})
-
+#could make 'code' into result code in server.py
+#or match js to bee result.code and result.msg
 
 if __name__ == "__main__":
     app.run(debug=True, host="0.0.0.0")
