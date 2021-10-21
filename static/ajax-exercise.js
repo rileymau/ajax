@@ -42,6 +42,7 @@ function melon_info(response) {
     $('#order-status').html(response.msg);
   }
 }
+//this is keeping it red once an error is called on page, works othewise. 
 
 function orderMelons(evt) {
   evt.preventDefault();
